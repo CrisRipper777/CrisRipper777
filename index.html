@@ -78,7 +78,7 @@
     <article id="post-云计算实验3-利用云平台搭建个人博客-实验报告" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/03/21/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3-%E5%88%A9%E7%94%A8%E4%BA%91%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/" class="article-date">
-  <time class="dt-published" datetime="2023-03-21T11:17:09.000Z" itemprop="datePublished">2023-03-21</time>
+  <time class="dt-published" datetime="2023-03-21T11:15:56.000Z" itemprop="datePublished">2023-03-21</time>
 </a>
     
   </div>
@@ -89,7 +89,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/03/21/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3-%E5%88%A9%E7%94%A8%E4%BA%91%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/">云计算实验3-利用云平台搭建个人博客-实验报告</a>
+      <a class="p-name article-title" href="/2023/03/21/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3-%E5%88%A9%E7%94%A8%E4%BA%91%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/">云计算实验3-利用云平台搭建个人博客</a>
     </h1>
   
 
@@ -97,11 +97,55 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        
+        <h1 id="山东大学-计算机科学与技术学院"><a href="#山东大学-计算机科学与技术学院" class="headerlink" title="山东大学  计算机科学与技术学院"></a>山东大学  计算机科学与技术学院</h1><h2 id="云计算技术-课程实验报告"><a href="#云计算技术-课程实验报告" class="headerlink" title="云计算技术  课程实验报告"></a>云计算技术  课程实验报告</h2><table>
+<thead>
+<tr>
+<th>学号：202018130179</th>
+<th>姓名：袁海峰</th>
+<th>班级：20数据班</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>实验题目：利用云平台搭建个人博客</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>实验学时：2</td>
+<td>实验日期：2023.3.14</td>
+<td></td>
+</tr>
+<tr>
+<td>实验目的：熟悉个人博客系统的搭建。  具体包括：  参考方案：注册Github账号，搭建Hexo环境并实现个人博客搭建，撰写实验报告。</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>硬件环境：   联网的计算机一台</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>软件环境：  Windows or Linux  Node.js  Hexo</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>实验步骤与内容</strong>：  实现个人博客系统的搭建：  1.  首先配置环境，采用的是参考方案，使用Github以及Hexo环境实现个人博客搭建。这里需要配置Node.js和Git的环境，由于之前配置过，这里可以直接配置Hexo环境，Hexo是一个基于  node.js的快速生成静态博客的开源框架,支持  Markdown和大多数 Octopress插件,一个命令即可部署到 Github页面、 Giteee、  Heroku等,强大的APl,可无限扩展,拥有数百个主题和插件。  使用 npm  install -g hexo-cli 来安装hexo：  <img src="file:///C:/Users/Ripper/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png" alt="img">  2.  之后使用如下命令：  <img src="file:///C:/Users/Ripper/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png" alt="img">  首先hexo init 是初始化hexo环境,这时会在目录下自动生成hexo的文件，然后的Hexo generate命令会生成静态页面文件，最后hexo server 是在本地部署我们的页面，按照提示浏览器打开<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a> 即可看到示例页面：  <img src="file:///C:/Users/Ripper/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png" alt="img">     3.  之后只需要参考hexo的官方文档，对搭建的博客页面进行修改与配置等，即可成功搭建起自己的博客主页。  4.  最后将本地博客发布到网络上，这里使用的是GitHub，首先在GitHub上创建一个仓库命名为：CrisRipper777(用户名).github.io，之后在本地的文件夹中打开_config.yam文件，在文件中配置我们的如下部分：  <img src="file:///C:/Users/Ripper/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png" alt="img">  之后在Git Bash中使用命令npm  install hexo-deployer-git –save，以及hexo deploy 即可将我们的博客网页的文件保存到我们所指定的Github仓库中：  <img src="file:///C:/Users/Ripper/AppData/Local/Temp/msohtmlclip1/01/clip_image010.png" alt="img">  最后打开网址<a target="_blank" rel="noopener" href="https://crisripper777.github.io/">https://crisripper777.github.io/</a> 即可得到一个和上图一样的博客网页。</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>结论分析与体会</strong>：  Hexo是一个基于 node.js的快速生成静态博客的开源框架,支持 Markdown和大多数 Octopress插件,一个命令即可部署到 Github页面、 Giteee、 Heroku等,强大的APl,可无限扩展,拥有数百个主题和插件。  GitHub Pages，是用来托管 GitHub 上静态网页的免费站点</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://crisripper777.github.io.git/2023/03/21/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3-%E5%88%A9%E7%94%A8%E4%BA%91%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/" data-id="clfi5ziut0002s4vededh557f" data-title="云计算实验3-利用云平台搭建个人博客-实验报告" class="article-share-link">Teilen</a>
+      <a data-url="https://crisripper777.github.io.git/2023/03/21/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3-%E5%88%A9%E7%94%A8%E4%BA%91%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/" data-id="clfi65mq10002lgvecqey88r4" data-title="云计算实验3-利用云平台搭建个人博客" class="article-share-link">Teilen</a>
       
       
       
@@ -152,7 +196,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://crisripper777.github.io.git/2023/03/14/hello-world/" data-id="clfi5ziuq0001s4ve93gqcrtx" data-title="Hello World" class="article-share-link">Teilen</a>
+      <a data-url="https://crisripper777.github.io.git/2023/03/14/hello-world/" data-id="clfi65mpy0001lgvef3ox2704" data-title="Hello World" class="article-share-link">Teilen</a>
       
       
       
@@ -195,7 +239,7 @@
       <ul>
         
           <li>
-            <a href="/2023/03/21/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3-%E5%88%A9%E7%94%A8%E4%BA%91%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/">云计算实验3-利用云平台搭建个人博客-实验报告</a>
+            <a href="/2023/03/21/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%AE%9E%E9%AA%8C3-%E5%88%A9%E7%94%A8%E4%BA%91%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/">云计算实验3-利用云平台搭建个人博客</a>
           </li>
         
           <li>
